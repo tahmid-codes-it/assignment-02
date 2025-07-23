@@ -14,9 +14,17 @@
     "wdth" 100;
 }
 
+/* shared styles */
+span{
+    color: #E95A08;
+}
+
+/* nav styles */
+
 nav{
     max-width:1140px ;
     margin: 30px auto;
+    margin-bottom: 90px;
     display: flex;
     justify-content:space-between; 
 }
@@ -52,5 +60,86 @@ color: #8987A1;
 
 .cart{
 color: #000000;
+}
+
+
+/* banner styles */
+.banner{
+    display: flex;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* margin-bottom: 120px; */
+    
+}
+
+.banner-heading{
+    font-size:4.0625rem ;
+    margin-bottom: 13px;
+}
+
+
+.banner-paragraph{
+    font-size:1.375rem ;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-right img{
+   max-width: 570px;
+}
+
+/* our plants section styles */
+.our-plants{
+    max-width: 1140px;
+    margin: 120px auto 0px auto;
+}
+
+.our-plants-heading{
+    font-size: 3.125rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.our-plants-paragraph{
+    max-width: 888px;
+    margin: 0 auto;
+    font-size: 1.375rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-bottom: 49px;
+}
+
+.card{
+    max-width: 270px;
+}
+
+.card-button{
+    font-weight:600;
+    width: 100%;
+    color: #FFFFFF ;
+    padding: 19px 80px;
+    background-color: #E95A08 ;
+    border: none;
+}
+
+.card-paragraph-one{
+font-size: 1.375rem;
+font-weight: 500;
+text-align: center;
+margin-bottom: 20px;
+/* margin-top: 30px; */
+}
+
+.card-paragraph-two{
+font-size: 1.375rem;
+font-weight: 700;
+text-align: center;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
 }
 
