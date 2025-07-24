@@ -428,7 +428,7 @@ footer {
 
     .banner {
         flex-direction: column;
-      
+
     }
 
     .banner-right img {
@@ -440,7 +440,7 @@ footer {
 
     .banner-left {
         order: 2;
-          max-width: 358px;
+        max-width: 358px;
         margin: 0 auto;
 
     }
@@ -513,6 +513,8 @@ footer {
     .flower-plants-lover {
         max-width: 358px;
         margin: 0 auto;
+        gap: 18px;
+        margin-bottom: 143px;
     }
 
     .badge-img-one {
@@ -531,4 +533,86 @@ footer {
     .flower-plants-lover-text {
         font-size: 0.875rem;
     }
+
+    .latest-deal-heading {
+        font-size: 1.5rem;
+    }
+
+    .latest-deal-paragraph {
+        font-size: 0.875rem;
+        margin-bottom: 52px;
+    }
+
+    .latest-deal-left-img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .latest-deal-img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .bloom-img {
+        width: 361px;
+        height: 177px;
+    }
+
+    .ana-img {
+        width: 361px;
+        height: 177px;
+    }
+
+    .zabo-img {
+        width: 361px;
+        height: 177px;
+    }
+
+    .bloom {
+        position: relative;
+    }
+
+    .grid-text-one {
+        position: absolute;
+        top: 40px;
+        left: 70px;
+        text-align: center;
+    }
+
+
+
+    .ana {
+        position: relative;
+    }
+
+    .grid-text-two {
+        position: absolute;
+        top: 40px;
+        left: 70px;
+        text-align: center;
+    }
+
+
+    .zabo {
+        position: relative;
+    }
+
+    .grid-text-three {
+        position: absolute;
+        top: 40px;
+        left: 70px;
+        text-align: center;
+    }
+
+    .zabo-paragraph {
+        font-size: 1.25rem;
+        margin-bottom: 5px;
+    }
+
+    .zabo-shop-now a {
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+
 }
